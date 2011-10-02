@@ -54,7 +54,9 @@ public class MongoBookShelf implements BookShelf {
 			if (existing != null) {
 				book.setAuthor(existing);
 			}
-			mongoTemplate.insert(book.getAuthor());
+			else {
+				mongoTemplate.insert(book.getAuthor());
+			}
 		}
 	}
 }

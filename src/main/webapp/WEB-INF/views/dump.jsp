@@ -45,7 +45,7 @@
 
 			<br/>
 
-			<a href="/">Home</a>
+			<a href="<c:url value="/" />">Home</a>
 
 			<!-- END PAGE CONTENT-->
 

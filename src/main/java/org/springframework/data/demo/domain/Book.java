@@ -62,4 +62,10 @@ public class Book {
 		this.published = published;
 	}
 
+	@Override
+	public String toString() {
+		return "Book [title=" + title + ", author=" + author + ", isbn=" + isbn
+				+ ", price=" + price + ", published=" + published + "]";
+	}
+
 }
